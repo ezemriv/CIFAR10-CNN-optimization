@@ -1,2 +1,32 @@
-# CIFAR10_cnn_optimization
-This project optimizes CNN architecture and hyperparameters on the CIFAR-10 dataset, comparing results to transfer learning approaches.
+# CIFAR10 image classification CNN optimization
+
+In this project, I aim to systematically optimize a neural network classifier for this dataset, exploring both architectural modifications and the benefits of transfer learning.
+
+## The CIFAR-10 dataset:
+
+The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.The CIFAR-10 dataset
+
+<img src="https://miro.medium.com/max/709/1*LyV7_xga4jUHdx4_jHk1PQ.png" width="400" height="300" alt="cifar10">
+
+Initially, I focused on refining the model architecture itself. I`ve created the CIFAR10ModelTester class to streamline the evaluation process.
+
+The goal in this phase is to determine the highest achievable test accuracy through iterative improvements to the architecture and hyperparameter tuning alone.
+
+- Dropout & Normalization: Added dropout layers for regularization, batch normalization for stability.
+- Increased Complexity: Gradually added convolutional layers, experimented with filter sizes.
+- Callbacks: Implemented early stopping, model checkpointing, and learning rate scheduling.
+- Hyperparameter Tuning: Tested batch sizes, optimized learning rate, weight decay.
+- Regularization: Applied weight decay, utilized learning rate schedules.
+- Global Average Pooling: Replaced fully connected layers to reduce overfitting.
+
+#### **Best test accuracy (arch and hyperparam tunning)**
+***0.894 (Model 7).***
+
+In the end, I explored the potential of transfer learning.
+
+I experimented with **Xception and EfficientNetB2** from Keras, as well as **ResNet34** from FastAI.
+
+By fine-tuning these models on the CIFAR-10 dataset, I further boosted classification accuracy.
+
+#### **Best final test accuracy:**
+***0.9706 using ResNet34.***
