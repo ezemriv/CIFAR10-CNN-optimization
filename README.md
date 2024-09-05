@@ -1,3 +1,8 @@
+<img src="https://img.shields.io/badge/Python-white?logo=Python" style="height: 15px; width: auto;">
+<img src="https://img.shields.io/badge/NumPy-white?logo=numpy&logoColor=013243" style="height: 15px; width: auto;">
+<img src="https://img.shields.io/badge/TensorFlow-white?logo=TensorFlow" style="height: 15px; width: auto;">
+<img src="https://img.shields.io/badge/Keras-white?logo=Keras&logoColor=D00000" style="height: 15px; width: auto;">
+
 # CIFAR10 image classification CNN optimization
 
 In this project, I aim to systematically optimize a neural network classifier for this dataset, exploring both architectural modifications and the benefits of transfer learning.
