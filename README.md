@@ -33,6 +33,6 @@ By fine-tuning these models on the CIFAR-10 dataset, I further boosted classific
 #### **Best final test accuracy:**
 ***0.9706 using ResNet34.***
 
-<img src="https://ezemriv.github.io/images/cifar_preds.png" width="600" height="600" alt="cifar10_preds">
+<img src="readme_images/cifar_preds.png" width="600" height="600" alt="cifar10_preds">
 
 
