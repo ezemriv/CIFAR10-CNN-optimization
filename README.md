@@ -2,17 +2,17 @@
 
 # CIFAR10 image classification CNN optimization
 
-In this project, I aim to systematically optimize a neural network classifier for this dataset, exploring both architectural modifications and the benefits of transfer learning.
+In this project, I systematically optimized a neural network classifier for CIFAR10 dataset, exploring both architectural modifications and the benefits of transfer learning.
 
 ## The CIFAR-10 dataset:
 
-The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.The CIFAR-10 dataset
+The CIFAR-10 dataset consists of 60000 32x32 color images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.
 
 <img src="https://miro.medium.com/max/709/1*LyV7_xga4jUHdx4_jHk1PQ.png" width="400" height="300" alt="cifar10">
 
 Initially, I focused on refining the model architecture itself. I`ve created the CIFAR10ModelTester class to streamline the evaluation process.
 
-The goal in this phase is to determine the highest achievable test accuracy through iterative improvements to the architecture and hyperparameter tuning alone.
+The goal in this phase is to determine the highest achievable test accuracy through iterative improvements to the architecture and hyperparameter tunning alone.
 
 - Dropout & Normalization: Added dropout layers for regularization, batch normalization for stability.
 - Increased Complexity: Gradually added convolutional layers, experimented with filter sizes.
