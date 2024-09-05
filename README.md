@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/badge/Python-white?logo=Python" style="height: 30px; width: auto;"><img src="https://img.shields.io/badge/NumPy-white?logo=numpy&logoColor=013243" style="height: 30px; width: auto;"><img src="https://img.shields.io/badge/TensorFlow-white?logo=TensorFlow" style="height: 30px; width: auto;"><img src="https://img.shields.io/badge/Keras-white?logo=Keras&logoColor=D00000" style="height: 30px; width: auto;">
+<img src="https://img.shields.io/badge/Python-white?logo=Python" style="height: 30px; width: auto;"> <img src="https://img.shields.io/badge/NumPy-white?logo=numpy&logoColor=013243" style="height: 30px; width: auto;"> <img src="https://img.shields.io/badge/TensorFlow-white?logo=TensorFlow" style="height: 30px; width: auto;"> <img src="https://img.shields.io/badge/Keras-white?logo=Keras&logoColor=D00000" style="height: 30px; width: auto;">
 
 # CIFAR10 image classification CNN optimization
 
